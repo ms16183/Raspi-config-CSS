@@ -1,0 +1,87 @@
+body {
+    background-color: #0000cd;
+}
+
+.main_box {
+    padding: 0.5em 0.5em;
+    margin: 2em 0;
+    background: #7f7f7f;
+    box-shadow: 12px 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.main_box p {
+     margin: 0;
+    padding: 0;
+}
+
+.char_box {
+    position: relative;
+    padding: 2.0em 1em;
+    margin: 0.25em 0.25em;
+    border: solid 1.5px #000000;
+}
+.char_box .char_title {
+    position: absolute;
+    display: inline-block;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 9px;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: Monaco, Monospace, "MS ゴシック";
+    background: #7f7f7f;
+    color: #7f0000;
+}
+.char_box p {
+     margin: 0;
+    padding: 0;
+}
+
+.btn {
+    display: block;
+    padding: 0.25em 1.0em;
+    text-decoration: none;
+    color: #000000;
+    font-family: Monaco, Monospace, "MS ゴシック";
+    font-size: 25px;
+    transition: .4s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+.btn:active {
+    background: #7f7f7f;
+    color: white;
+}
+.btn:hover {
+    background: #7f0000;
+    color: white;
+}
+
+.select_btn {
+    display: inline-block;
+    margin: 1.0em 0.0em;
+    padding: 0.25em 3.5em;
+    text-decoration: none;
+    color: #000000;
+    font-family: Monaco, Monospace, "MS ゴシック";
+    font-size: 25px;
+    transition: 0s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.select_btn:active {
+    background: #7f7f7f;
+    color: white;
+}
+.select_btn:hover {
+    background: #7f0000;
+    color: white;
